@@ -17,7 +17,7 @@ I was motivated to create this script as it's often difficult identifying accoun
 
 You must edit the `ACCOUNTS` constant to contain a list of your AWS accounts.
 
-Each object MUST contain `accountId` and `accountName`.
+Each object MUST contain `accountId` and `accountName`. Note, `accountId` is a regular expression *not* a string.
 
 It's also possible to override `DEFAULT_BACKGROUND_COLOR` and `DEFAULT_TEXT_COLOR` of individual accounts by setting `backgroundColor` and `textColor` respectively.
 For example, you may wish to style production accounts differently than non-production accounts etc.
@@ -43,7 +43,7 @@ For example, you may wish to style production accounts differently than non-prod
 
 ## Usage
 
-Simply right-click on any web-page, select **Tampermonkey** the click **Identify known AWS accounts**.
+Simply right-click on any web-page, select **Tampermonkey** then click **Identify known AWS accounts**.
 
 ![Browser context menu](images/context-menu.png)
 
