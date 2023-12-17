@@ -1,6 +1,6 @@
 # AWS Identify Known Accounts
 
-A simple [Tampermonkey][tm] script which will find AWS account ids on the current web page and highlight them with their account name.
+A simple [Tampermonkey][tm] script which will find AWS account ids on the current web page and highlights them with their account name.
 
 I was motivated to create this script as it's often difficult identifying accounts by their account id alone, especially when reading pull-requests etc.
 
