@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Identify known AWS accounts
 // @namespace    https://github.com/willdady/aws-identify-known-accounts-tm
-// @version      2023-12-11
+// @version      2023-12-17
 // @description  Shows the AWS account name for AWS account ids found on the page
 // @author       Will Dady
 // @match        https://*/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
+// @icon         data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>
 // @run-at context-menu
 // @grant        none
 // ==/UserScript==
@@ -23,7 +23,6 @@
     },
   ];
 
-  // Function to recursively check and update background color
   function highlightText(element) {
     // Check if the element is a text node. We also ignore the element if it has
     // the attribute `data-tampered="true"` as that indicates we have already
